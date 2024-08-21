@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public interface ICalculadorDePrecio {
+import java.util.List;
+
+public interface ICalculadorDePrecio {
+    double calcularPrecioTotal(List<Producto> productos);
+
+
 }
